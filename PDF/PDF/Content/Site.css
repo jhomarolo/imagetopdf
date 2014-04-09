@@ -755,3 +755,107 @@ tr.pager td {
         }
 }
 /* END: Mobile Styles */
+
+.btn-upload, { 
+  color: #FFFFFF; 
+  background-color: #1BBD38 !important; 
+  border-color: #168500  !important; 
+    padding:10px 30px;
+  border-radius:5px;
+} 
+ 
+.btn-upload:hover, 
+.btn-upload:focus, 
+.btn-upload:active, 
+.btn-upload.active, 
+.open .dropdown-toggle.btn-upload { 
+  color: #FFFFFF; 
+  background-color: #247A38  !important; 
+  border-color: #168500  !important; 
+} 
+ 
+.btn-upload:active, 
+.btn-upload.active, 
+.open .dropdown-toggle.btn-upload { 
+  background-image: none; 
+} 
+ 
+.btn-upload.disabled, 
+.btn-upload[disabled], 
+fieldset[disabled] .btn-upload, 
+.btn-upload.disabled:hover, 
+.btn-upload[disabled]:hover, 
+fieldset[disabled] .btn-upload:hover, 
+.btn-upload.disabled:focus, 
+.btn-upload[disabled]:focus, 
+fieldset[disabled] .btn-upload:focus, 
+.btn-upload.disabled:active, 
+.btn-upload[disabled]:active, 
+fieldset[disabled] .btn-upload:active, 
+.btn-upload.disabled.active, 
+.btn-upload[disabled].active, 
+fieldset[disabled] .btn-upload.active { 
+  background-color: #1BBD38; 
+  border-color: #168500; 
+} 
+ 
+.btn-upload .badge { 
+  color: #1BBD38; 
+  background-color: #FFFFFF; 
+}
+
+
+.btn-remove { 
+  color: #FFFFFF; 
+  background-color: #BD1B1B; 
+  border-color: #850000; 
+  padding:10px 30px;
+  border-radius:5px;
+} 
+ 
+.btn-remove:hover, 
+.btn-remove:focus, 
+.btn-remove:active, 
+.btn-remove.active, 
+.open .dropdown-toggle.btn-remove { 
+  color: #FFFFFF; 
+  background-color: #7A2424; 
+  border-color: #850000; 
+} 
+ 
+.btn-remove:active, 
+.btn-remove.active, 
+.open .dropdown-toggle.btn-remove { 
+  background-image: none; 
+} 
+ 
+.btn-remove.disabled, 
+.btn-remove[disabled], 
+fieldset[disabled] .btn-remove, 
+.btn-remove.disabled:hover, 
+.btn-remove[disabled]:hover, 
+fieldset[disabled] .btn-remove:hover, 
+.btn-remove.disabled:focus, 
+.btn-remove[disabled]:focus, 
+fieldset[disabled] .btn-remove:focus, 
+.btn-remove.disabled:active, 
+.btn-remove[disabled]:active, 
+fieldset[disabled] .btn-remove:active, 
+.btn-remove.disabled.active, 
+.btn-remove[disabled].active, 
+fieldset[disabled] .btn-remove.active { 
+  background-color: #BD1B1B; 
+  border-color: #850000; 
+}
+
+    .btn-remove .badge
+    {
+        color: #BD1B1B;
+        background-color: #FFFFFF;
+    }
+
+
+
+.file-upload
+{font-size:85%; background-color: #EFEEEF;  width:400px;margin-top:30px; border:2px solid #ccc;}
+

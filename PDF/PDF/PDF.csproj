@@ -38,6 +38,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\packages\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="libBrasilShop">
+      <HintPath>..\..\..\..\ProjetosSVN\trunk - 2013\Pessoal\Bin\libBrasilShop.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -179,8 +185,15 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Images\accent.png" />
+    <Content Include="Images\bg-btn.png" />
+    <Content Include="Images\bg-submit.gif" />
+    <Content Include="Images\botao.GIF" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\icon-generic.gif" />
+    <Content Include="Images\icon-image.gif" />
+    <Content Include="Images\icon-media.gif" />
+    <Content Include="Images\icon-zip.gif" />
     <Content Include="Images\orderedList0.png" />
     <Content Include="Images\orderedList1.png" />
     <Content Include="Images\orderedList2.png" />
@@ -195,6 +208,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\pdf.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="paypal.html" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -290,6 +304,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="uploads\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />
