@@ -756,11 +756,12 @@ tr.pager td {
 }
 /* END: Mobile Styles */
 
-.btn-upload, { 
+.btn-upload { 
   color: #FFFFFF; 
   background-color: #1BBD38 !important; 
   border-color: #168500  !important; 
-    padding:10px 30px;
+  padding:8px 30px;
+  font-size:1em !important;
   border-radius:5px;
 } 
  
